@@ -1,0 +1,26 @@
+video:
+  index: 0
+  width: 1280
+  height: 720
+  fps: 30
+  face_mask: false
+  opt_out_rect: [0.0, 0.8, 1.0, 1.0]
+
+audio:
+  device: null
+  sample_rate: 16000
+  frame_ms: 30
+
+privacy:
+  allow_recording: false
+  purge_seconds: 60
+
+network:
+  host: 127.0.0.1
+  port: 8765
+  path: /observations
+  send_hz: 25
+
+features:
+  embedding_dim: 128
+  smooth_alpha: 0.6
